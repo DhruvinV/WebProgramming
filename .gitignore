@@ -1,0 +1,8 @@
+.gitignore
+node_modules
+*.js
+!app.js
+!reservations.js
+*.json
+!package.json
+!json_examples/*.json
