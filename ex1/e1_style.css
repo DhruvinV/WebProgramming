@@ -110,11 +110,8 @@ a {
 
 	/* Add properties below */
 	margin-top: 20px;
-	width:600 px;
 	margin-left: 390px;
-	min-height:100px;
-	
-
+	width: 600px;
 }
 
 .timelineHeader {
@@ -144,7 +141,8 @@ a {
 	
 	/* Add properties below */
 	overflow: auto;
-	width: 600px;
+	border-bottom: 1px solid grey;
+	min-height: 100px;
 
 }
 
@@ -173,8 +171,12 @@ a {
 	margin: 0px;
 
 	/* Add properties below */
-	width:520px;
-	float: right;
+	
+	/* float: right; */
+	width: 520px;
+	margin-left: 80px;
+	
+
 
 
 }
@@ -189,7 +191,12 @@ a {
 /* Style the big profile picture circle here. */
 #bigProfilePicCircle {
 	/* Add properties below */
-
+	width: 200px;
+	top: 230px;
+	left: 100px;
+	border-radius: 50%;
+	border: 1px solid white;
+	position: absolute;
 }
 
 
